@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 150px;
+    width: 220px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+input{
+    width: 180px;
+}
+input:invalid {
+  border: 3px solid crimson;
+}
+
+button{
+    width: 80px;
+}
+button:nth-of-type(3){
+    width: 50px;
+}
